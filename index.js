@@ -2,7 +2,6 @@
 
 const drumBtns = document.querySelectorAll(".drum");
 const audioFile = new Audio("./sounds/crash.mp3");
-const bgImg = document.createElement("img");
 drumBtns.forEach((btn, key) => {
   const bgImg = document.createElement("img");
   bgImg.setAttribute("src", `./images/tom${key + 1}.png`);
